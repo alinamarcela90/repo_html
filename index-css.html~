@@ -4,29 +4,18 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <title>CSS</title>
 <style type="text/css">
-	/*commento css*/
-	body{
-	background-color:yellow;
-	background:url("es2/img/ciccio2.jpg");
-	background-repeat:no-repeat;/*repeat-x; repeat-y*/
-	/*background-position:130px 200px;*/
-	background-clip:content-box;
-	}
-	
-	h1{background-color:red;
-	color:purple;
-	background-clip:content-box;	
-	}
-	p{
-	background-color:white;	
-	}
-
+	.gallery{width:180px;
+	border:2px solid red;
+	margin:4px;}
+	.gallery img{ width:100%; height:auto;}
+	.didascalia{padding:15px; text-align:center;}
 </style>
 </head>
 <body>
 <!--Commenti html-->
-<h1>Esercizio su CSS</h1>
-<p>Ciao</p>
-
+<div class="gallery">
+<img src="img/img_fjords.jpg" alt="img_fjords" />
+<div class="didascalia"> Fiordi norvegesi </div>
+</div>
 </body>
 </head>
