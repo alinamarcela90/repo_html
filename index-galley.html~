@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Gallery</title>
+<style type="text/css">
+	.gallery{width:180px;
+		border:2px solid red;
+		margin:4px;
+		float:left;}
+	.gallery img{ 
+		width:100%; 
+		height:auto;}
+	.gallery img:hover{
+		opacity: 0.5; 
+		border: 3px solid yellow}
+	.didascalia{
+		padding:15px; 
+		text-align:center;}
+
+	.imgsx{float:left;}
+	p{color:green;}
+	p.sotto{clear:left;}
+</style>
+</head>
+<body>
+<!--Commenti html-->
+<div class="gallery">
+<a href="img/img_fjords.jpg"target="_blank">
+<img src="img/img_fjords.jpg" alt="img_fjords" />
+</a>
+<div class="didascalia"> Fiordi norvegesi </div>
+</div>
+<div class="gallery">
+<a href="img/img_fjords.jpg"target="_blank">
+<img src="img/img_fjords.jpg" alt="img_fjords" />
+</a>
+<div class="didascalia"> Fiordi norvegesi </div>
+</div>
+<br />
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!--floating-->
+
+<a href="img/img_fjords.jpg"target="_blank">
+<img class="imgsx" src="img/img_fjords.jpg" alt="img_fjords" />
+</a>
+
+<p class="sotto">testo sotto</p>
+
+</body>
+</head>
